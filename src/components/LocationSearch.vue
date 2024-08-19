@@ -57,7 +57,6 @@ function getWather() {
           class="dateinp"
           name="end"
           id="end"
-          :max="today"
           :min="startD"
           v-model="endD"
         />
